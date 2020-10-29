@@ -1,0 +1,21 @@
+{
+    "name": "Ads Blocker By Akash",
+    "version": "1.0",
+    "description": "Chrome URL Blocking Extension",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "index.js"
+        ]
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "manifest_version": 2
+}
